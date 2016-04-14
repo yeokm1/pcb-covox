@@ -16,7 +16,7 @@ Images are exported from Eagle at 600dpi.
 ![Screen](images/schematic.png)
 
 ##Parts required
-See [pcb-covox-bom.ods](pcb-covox-bom.ods)
+Use Libreoffice to open [pcb-covox-bom.ods](pcb-covox-bom.ods)
 
 ##References
 1. [Hardware implementation references](https://blog.frantovo.cz/c/307/DAC%20%28zvukov%C3%A1%20karta%29%20pro%20LPT%20port%20a.k.a.%20Covox)
