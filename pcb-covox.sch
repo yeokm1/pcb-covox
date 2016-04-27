@@ -7300,26 +7300,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <library name="mj-2135">
 <packages>
 <package name="MJ-2135">
-<wire x1="-6.35" y1="11.43" x2="-5.08" y2="11.43" width="0.4064" layer="21"/>
-<pad name="P$4" x="-6.35" y="4.445" drill="3.2"/>
-<pad name="P$5" x="7.62" y="4.445" drill="3.2"/>
-<wire x1="-5.08" y1="11.43" x2="6.35" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="6.35" y1="11.43" x2="7.62" y2="11.43" width="0.4064" layer="21"/>
-<wire x1="-6.35" y1="11.43" x2="-6.35" y2="6.985" width="0.4064" layer="21"/>
-<wire x1="7.62" y1="11.43" x2="7.62" y2="6.985" width="0.4064" layer="21"/>
-<wire x1="-5.08" y1="11.43" x2="-5.08" y2="16.51" width="0.4064" layer="21"/>
-<wire x1="-5.08" y1="16.51" x2="6.35" y2="16.51" width="0.4064" layer="21"/>
-<wire x1="6.35" y1="16.51" x2="6.35" y2="11.43" width="0.4064" layer="21"/>
-<pad name="P$3" x="-5.08" y="-11.7475" drill="3.2"/>
-<pad name="P$1" x="0.635" y="-13.0175" drill="3.2"/>
-<pad name="P$2" x="6.35" y="-11.7475" drill="3.2"/>
-<wire x1="-6.35" y1="1.905" x2="-6.35" y2="-9.525" width="0.4064" layer="21"/>
-<wire x1="-2.8575" y1="-12.7" x2="-1.5875" y2="-12.7" width="0.4064" layer="21"/>
-<wire x1="7.62" y1="1.905" x2="7.62" y2="-9.525" width="0.4064" layer="21"/>
-<wire x1="4.1275" y1="-12.7" x2="2.8575" y2="-12.7" width="0.4064" layer="21"/>
-<hole x="0.635" y="-6.985" drill="2.8"/>
-<hole x="0.635" y="6.985" drill="2.8"/>
-<text x="11.43" y="-10.16" size="2.1844" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="3.59" y1="6.05" x2="3.09" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="3.09" y1="6.05" x2="-2.91" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="-2.91" y1="6.05" x2="-3.41" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="-2.91" y1="6.05" x2="-2.91" y2="8.55" width="0.2032" layer="21"/>
+<wire x1="-2.91" y1="8.55" x2="3.09" y2="8.55" width="0.2032" layer="21"/>
+<wire x1="3.09" y1="8.55" x2="3.09" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="3.59" y1="-4.25" x2="3.59" y2="1.35" width="0.2032" layer="21"/>
+<wire x1="-3.41" y1="1.35" x2="-3.41" y2="-4.25" width="0.2032" layer="21"/>
+<wire x1="-3.41" y1="3.75" x2="-3.41" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="3.59" y1="6.05" x2="3.59" y2="3.75" width="0.2032" layer="21"/>
+<wire x1="-1.71" y1="-5.95" x2="-1.11" y2="-5.95" width="0.2032" layer="21"/>
+<wire x1="1.29" y1="-5.95" x2="1.89" y2="-5.95" width="0.2032" layer="21"/>
+<pad name="P$4" x="-3.41" y="2.55" drill="1.3" diameter="2.1844"/>
+<pad name="P$5" x="3.59" y="2.55" drill="1.3" diameter="2.1844"/>
+<pad name="P$3" x="-2.71" y="-5.45" drill="1.3" diameter="2.1844"/>
+<pad name="P$2" x="2.89" y="-5.45" drill="1.3" diameter="2.1844"/>
+<pad name="P$1" x="0.09" y="-6.15" drill="1.3" diameter="2.1844"/>
+<text x="-4.68" y="-5.95" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<hole x="-0.035" y="3.375" drill="1.4"/>
+<hole x="-0.035" y="-2.925" drill="1.4"/>
 </package>
 </packages>
 <symbols>
@@ -7634,8 +7634,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="X2" library="mj-2135" deviceset="MJ-2135" device="MJ-2135"/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 </parts>
 <sheets>
 <sheet>
@@ -7717,10 +7715,8 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="SUPPLY1" gate="GND" x="129.54" y="20.32"/>
 <instance part="X2" gate="G$1" x="167.64" y="38.1" rot="MR0"/>
-<instance part="H1" gate="G$1" x="101.6" y="-2.54"/>
-<instance part="H2" gate="G$1" x="137.16" y="-2.54"/>
-<instance part="H3" gate="G$1" x="101.6" y="-20.32"/>
-<instance part="H4" gate="G$1" x="137.16" y="-20.32"/>
+<instance part="H1" gate="G$1" x="137.16" y="-2.54"/>
+<instance part="H2" gate="G$1" x="137.16" y="-20.32"/>
 </instances>
 <busses>
 </busses>
