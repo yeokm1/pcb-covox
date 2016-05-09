@@ -141,7 +141,7 @@
 <text x="15.5" y="9.4" size="1.016" layer="21" rot="R270">15/20 ohm</text>
 <text x="22.6" y="0.9" size="1.016" layer="21" rot="R90">7.5/10 ohm</text>
 <text x="22.1" y="56.1" size="1.016" layer="21" rot="R270">Covox Variant
-Rev 2 (Apr 2016)
+Rev 3 (May 2016)
 Designer: Yeo Kheng Meng</text>
 </plain>
 <libraries>
@@ -1515,8 +1515,8 @@ D = Direct mounting &lt;p&gt;
 <pad name="P$2" x="2.89" y="-5.45" drill="1.3" diameter="2.1844"/>
 <pad name="P$1" x="0.09" y="-6.15" drill="1.3" diameter="2.1844"/>
 <text x="-4.68" y="-5.95" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<hole x="-0.035" y="3.375" drill="1.4"/>
-<hole x="-0.035" y="-2.925" drill="1.4"/>
+<hole x="0.065" y="4.575" drill="1.5"/>
+<hole x="0.065" y="-2.925" drill="1.5"/>
 </package>
 </packages>
 </library>
