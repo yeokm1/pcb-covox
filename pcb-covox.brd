@@ -141,7 +141,7 @@
 <text x="15.5" y="9.4" size="1.016" layer="21" rot="R270">15/20 ohm</text>
 <text x="22.6" y="0.9" size="1.016" layer="21" rot="R90">7.5/10 ohm</text>
 <text x="22.1" y="56.1" size="1.016" layer="21" rot="R270">Covox Variant
-Rev 3 (May 2016)
+Rev 4 (June 2016)
 Designer: Yeo Kheng Meng</text>
 </plain>
 <libraries>
