@@ -6,7 +6,9 @@ A tiny sound card based on the Covox Speech Thing design
 1. Eagle 7.5.0: I use Standard but Light should still be able to open/modify the files.
 
 ##Images
-None at this time
+![Screen](images/front.jpg)
+This is a revision 3 board which has a bug in the mj2135 library which is a misaligned hole. I corrected this in Revision 4 but never actually fabricated that update.
+
 
 ##Schematic drawings
 Images are exported from Eagle at 600dpi.
