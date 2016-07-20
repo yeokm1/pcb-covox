@@ -1,5 +1,5 @@
 # pcb-covox
-A tiny sound card based on the Covox Speech Thing design
+A tiny sound card based on the Covox Speech Thing design. I have another design which adds on an LM386 amplifier which can be found [here](https://github.com/yeokm1/pcb-covox-amp/).
 
 ##PCB Design software and addons used
 
