@@ -9,6 +9,7 @@ A tiny sound card based on the Covox Speech Thing design. I have another design 
 ![Screen](images/front.jpg)
 This is a revision 3 board which has a bug in the mj2135 library which is a misaligned hole. I corrected this in Revision 4 but never actually fabricated that update.
 
+Due to my oversight, only the DB25 pin 19 is grounded whearas the standard calls for pins 18-25 to be done so. You might need to modify the design if you face problems.
 
 ##Schematic drawings
 Images are exported from Eagle at 600dpi.
